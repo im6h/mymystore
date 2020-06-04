@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 -- Cấu trúc bảng cho bảng `admins`
 --
-
+use `heroku_64c5025f16fdbd2`
 CREATE TABLE `admins` (
   `id` int(10) UNSIGNED NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
