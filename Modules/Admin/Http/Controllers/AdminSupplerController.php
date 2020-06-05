@@ -20,7 +20,7 @@ class AdminSupplerController extends Controller
 
     public function create(){
 		
-    	return view('admin::supplier.create',compact('suppliers'));
+    	return view('admin::supplier.create');
     }
 
     public function store(RequestSupplier $requestSupplier){
