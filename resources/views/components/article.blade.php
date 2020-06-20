@@ -9,7 +9,7 @@
       <div class="article_info" style="width: 80%; margin-left: 20px;">
       <h2 style="font-size: 15px;"><a class="href">{{$article->a_name}}</a></h2>
       <p style="font-size: 13px">{{$article->a_description}}</p>
-      <p>Nguyễn Cương Quyết <span>{{$article->created_at}}</span></p>
+      <p>Vu Hai Dang <span>{{$article->created_at}}</span></p>
    </div>
 </div>
 @endforeach
