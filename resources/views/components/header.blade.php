@@ -4,7 +4,7 @@
             <!-- logo start -->
             <div class="col-md-3 col-sm-12 text-center nopadding-right">
                 <div class="top-logo">
-                    <a href="/"><img src="{{asset('img/logo.png')}}" style="width: 250px; height:50px " alt="" /></a>
+                    <a href="/"><img src="{{asset('img/logo-.png')}}" style="width: 250px; height:50px " alt="" /></a>
                 </div>
             </div>
             <!-- logo end -->
