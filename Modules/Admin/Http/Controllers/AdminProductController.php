@@ -33,7 +33,7 @@ class AdminProductController extends Controller
         $suppliers = $this->getSuppliers();
         $categories = $this->getCategories();//truyen cac loai san pham vao o select ben create.blade.php 
         $data = [
-          'suppliers' => $suppliers,
+          // 'suppliers' => $suppliers,
           'categories' => $categories
         ];
         return view('admin::product.create',$data);
@@ -79,7 +79,7 @@ class AdminProductController extends Controller
       $product->pro_price = $requestProduct->pro_price;
       $product->pro_sale = $requestProduct->pro_sale;
       $product->pro_number = $requestProduct->pro_number;
-      $product->pro_supplier_id = $requestProduct->pro_supplier_id;
+      // $product->pro_supplier_id = $requestProduct->pro_supplier_id;
       if ($requestProduct->hasFile('avatar')) 
       {
         
