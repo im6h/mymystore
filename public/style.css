@@ -842,7 +842,6 @@ span.amount {
     color: #fff;
 }
 .action-zoom a {
-    background: ;
 }
 .single-product:hover .product-img a img.secondary-image {
     opacity: 1;
@@ -1268,7 +1267,7 @@ span.old-price {
     width: 90%;
 }
 .cakewalk-footer-content ul {
-    margin: 0px;
+    margin: 0 !important;
 }
 .cakewalk-footer-content .read-more {
     color: #fff;
